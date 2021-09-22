@@ -1,0 +1,281 @@
+/*Palette de couleurs
+
+gris texte article  #959595  rgb(149, 149, 149)
+gris texte article  #67676d  rgb(103, 103, 109)
+
+
+
+/* importation des polices via google fonts*/
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+
+/*font-family: 'Open Sans', sans-serif;*/
+
+/*style par défaut*/
+body {
+  background-color: white;
+}
+
+/*fixer la taille su site*/
+.wrapper {
+  margin: 0 18% 0 14%;
+}
+
+/*rendre les images responsives*/
+img.responsive {
+  width: 100%;
+  height: auto;
+}
+
+/*header css*/
+
+.masterheader {
+  height: 950px;
+  background-image: url(/img/masterhead.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 25px;
+}
+
+.masterheader .wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+}
+
+header {
+  height: 50%;
+  width: 100%;
+}
+
+header figure {
+  width: 6%;
+  margin-top: 50px;
+}
+
+.masthead {
+  height: 50%;
+  width: 100%;
+}
+
+.masthead h1 {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 40pt;
+  font-style: normal;
+  font-weight: 300;
+  width: 32%;
+  margin-bottom: 22px;
+}
+
+.masthead p {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 10pt;
+  width: 38%;
+}
+
+.masthead img {
+  position: absolute;
+  left: 48%;
+  top: 26%;
+}
+
+/*section article 2 col*/
+
+article .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+article h2 {
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30pt;
+  font-style: normal;
+  font-weight: 300;
+  margin-top: 100px;
+}
+
+article p {
+  color: #959595;
+  font-family: "Open Sans", sans-serif;
+  line-height: 22px;
+  font-size: 11pt;
+  margin-top: 20px;
+}
+
+.col_left {
+  width: 48.7%;
+}
+
+.col_right {
+  width: 48.7%;
+}
+
+/*section box*/
+
+/*polices*/
+
+.box {
+  color: white;
+}
+
+.box h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18pt;
+  font-style: normal;
+  font-weight: 300;
+  padding-top: 40px;
+  margin-left: 25px;
+  height: 80px;
+}
+
+.box p {
+  font-family: "Open Sans", sans-serif;
+  line-height: 22px;
+  font-size: 10pt;
+  margin-left: 25px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  width: 75%;
+  height: 100px;
+}
+
+.box a {
+  font-family: "Open Sans", sans-serif;
+  line-height: 22px;
+  font-size: 10pt;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  margin-left: 25px;
+}
+
+/*box dimension & color*/
+
+.card {
+  flex: 1 1 20%;
+  min-height: 278px;
+}
+
+.extra {
+  flex: 0 1 18%;
+  min-height: 278px;
+}
+
+.double_box {
+  flex: 2 0 40%;
+  background-image: url(/img/box_large.png);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  min-height: 278px;
+  order: 5;
+}
+
+.pink_box {
+  background-color: #f5989d;
+  order: 1;
+}
+
+.darkblue_box {
+  background-color: #615f7d;
+  order: 2;
+}
+
+.client_box {
+  background-image: url(/img/client1.png);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  order: 3;
+}
+
+.green_box {
+  background-color: #82ca9c;
+  order: 6;
+}
+
+.violet_box {
+  background-color: #bd8cbf;
+  width: 284px;
+  order: 4;
+}
+
+.extra_box {
+  background-image: url(/img/extra_box.png);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  width: 284px;
+  order: 7;
+}
+
+/*flexbox*/
+
+.box .container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+.container .out-wrap {
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: 14%;
+}
+
+.align_link {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 35px;
+}
+
+/*section 4 column*/
+
+h3 {
+  font-family: "Open Sans Semibold", sans-serif;
+  font-size: 11pt;
+  color: #67676d;
+  margin-top: 65px;
+}
+
+article .flex2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.four_col {
+  width: 23%;
+  margin-bottom: 35px;
+}
+
+/*section full image*/
+
+.fullimage {
+  height: 868px;
+  background-image: url(/img/fullimage.png);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+}
+
+.masterheader .wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
