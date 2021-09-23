@@ -31,7 +31,7 @@ img.responsive {
 
 .masterheader {
   height: 950px;
-  background-image: url(/img/masterhead.jpg);
+  background-image: url(../img/masterhead.jpg);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -172,7 +172,7 @@ section p {
 
 .double_box {
   flex: 2 0 40%;
-  background-image: url(/img/box_large.png);
+  background-image: url(../img/box_large.png);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -192,7 +192,7 @@ section p {
 }
 
 .client_box {
-  background-image: url(/img/client1.png);
+  background-image: url(../img/client1.png);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -212,7 +212,7 @@ section p {
 }
 
 .extra_box {
-  background-image: url(/img/extra_box.png);
+  background-image: url(../img/extra_box.png);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -266,7 +266,7 @@ section .flex2 {
 
 .fullimage {
   height: 868px;
-  background-image: url(/img/fullimage.png);
+  background-image: url(../img/fullimage.png);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -428,4 +428,98 @@ section .flex2 {
   color: #c5c5c5;
   font-size: 1.5rem;
   margin-right: 10px;
+}
+
+/*footer*/
+
+.masterfooter {
+  background-color: #192431;
+  color: #f6f7fa;
+  font-family: "Open Sans", sans-serif;
+  font-size: 10pt;
+}
+
+/*polices*/
+
+footer h3 {
+  font-family: "Open Sans Semibold", sans-serif;
+  font-size: 11pt;
+  color: #f6f7fa;
+}
+
+footer a,
+footer p {
+  color: #f6f7fa;
+  font-family: "Open Sans", sans-serif;
+  font-size: 10pt;
+  text-decoration: none;
+}
+
+.below_btn {
+  color: #57697f;
+  margin-top: 0px;
+}
+
+/*flexbox*/
+
+footer {
+  display: flex;
+  flex-flow: row wrap;
+  height: 450px;
+}
+
+.row_one,
+.row_two {
+  display: flex;
+  height: 50%;
+}
+
+.get_in_touch {
+  width: 57.2%;
+}
+
+.get_in_touch p {
+  width: 85%;
+}
+
+.stay_in_touch {
+  width: 40.1%;
+}
+
+/*email bar*/
+
+.email_bar {
+  height: 50px;
+  display: flex;
+  border: solid 1px white;
+  border-radius: 2px;
+  margin-top: 20px;
+}
+
+.email_bar input {
+  border: 0px;
+  width: calc(100% - 50px);
+}
+
+.email_bar .btn_envoyer {
+  border: 0px;
+  width: 50px;
+  background-color: #77c1ab;
+  color: white;
+}
+
+/*section 2eme ligne*/
+
+.row_two {
+  justify-content: space-between;
+  width: 40%;
+}
+
+.row_two p {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.row_two li {
+  margin-bottom: 10px;
 }
