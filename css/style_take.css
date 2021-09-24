@@ -23,14 +23,14 @@ body {
 
 /*rendre les images responsives*/
 img.responsive {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
 /*header css*/
 
 .masterheader {
-  height: 950px;
+  height: 980px;
   background-image: url(../img/masterhead.jpg);
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -81,14 +81,15 @@ header figure {
 
 .masthead img {
   position: absolute;
-  left: 48%;
-  top: 26%;
+  left: 55%;
+  bottom: -20%;
 }
 
 /*section article 2 col*/
 
 section .flex {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 80px;
@@ -252,6 +253,7 @@ h3 {
 
 section .flex2 {
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 80px;
@@ -287,10 +289,10 @@ section .flex2 {
 .image h1 {
   color: white;
   font-family: "Open Sans", sans-serif;
-  font-size: 38pt;
+  font-size: 35pt;
   font-style: normal;
   font-weight: 300;
-  width: 40.17%;
+  width: 100%;
   margin-bottom: 22px;
 }
 
@@ -298,7 +300,7 @@ section .flex2 {
   color: white;
   font-family: "Open Sans", sans-serif;
   font-size: 10pt;
-  width: 40.17%;
+  width: 50%;
   margin-bottom: 22px;
   line-height: 20px;
 }
@@ -522,4 +524,167 @@ footer {
 
 .row_two li {
   margin-bottom: 10px;
+}
+
+/*media queries*/
+
+@media screen and (max-width: 1230px) {
+  .extra {
+    display: none;
+  }
+
+  .wrapper {
+    margin: 0 5% 0 5%;
+  }
+
+  .card {
+    flex: 1 1 30%;
+  }
+  .double_box {
+    flex: 2 0 60%;
+  }
+
+  .container .out-wrap {
+    margin: 0 5% 0 5%;
+  }
+
+  img.responsive {
+    max-width: 50%;
+    height: auto;
+  }
+
+  .masthead img {
+    position: absolute;
+    left: 52%;
+    bottom: -20%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .masthead img {
+    display: none;
+  }
+
+  footer {
+    height: auto;
+  }
+
+  .row_one,
+  .row_two {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .get_in_touch {
+    flex: 0 1 100%;
+  }
+
+  .get_in_touch p {
+    flex: 0 1 100%;
+  }
+
+  .stay_in_touch {
+    flex: 0 1 100%;
+  }
+
+  .row_two {
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px 0;
+  }
+
+  .row_two section {
+    flex: 0 1 33%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 772px) {
+  .masthead p {
+    font-size: 9pt;
+  }
+  .section .flex2 {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .section3col h2 {
+    margin-top: 50px;
+  }
+
+  .four_col {
+    flex: 0 1 44%;
+  }
+}
+
+@media screen and (max-width: 662px) {
+  .card {
+    flex: 0 0 100%;
+  }
+  .double_box {
+    flex: 0 0 100%;
+  }
+
+  .image h1 {
+    font-size: 30pt;
+  }
+  .image p {
+    width: 60%;
+  }
+
+  .three_col {
+    flex: 0 1 40%;
+  }
+
+  .section3col {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+  }
+
+  .buying {
+    height: auto;
+    padding-bottom: 40px;
+  }
+
+  .legacy,
+  .popular {
+    flex: 0 1 100%;
+    height: auto;
+    padding-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 486px) {
+  section h2 {
+    font-size: 30px;
+  }
+
+  .col_left {
+    flex: 0 1 100%;
+  }
+
+  .col_right {
+    flex: 0 1 100%;
+  }
+
+  .four_col {
+    flex: 0 1 100%;
+  }
+
+  .three_col {
+    flex: 0 1 100%;
+  }
+  .section3col h2 {
+    font-size: 30px;
+  }
+  .image p {
+    width: 80%;
+  }
+
+  .row_two section {
+    flex: 0 1 100%;
+  }
 }
