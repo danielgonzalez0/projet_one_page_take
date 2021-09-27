@@ -157,6 +157,12 @@ section p {
   text-decoration: none;
   color: white;
   margin-left: 25px;
+  transition: all 0.3s ease-in-out;
+}
+
+.box a:hover {
+  text-decoration: underline;
+  font-size: 1.05rem;
 }
 
 /*box dimension & color*/
@@ -312,6 +318,12 @@ section .flex2 {
   font-weight: bold;
   text-decoration: none;
   color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.image a:hover {
+  text-decoration: underline;
+  font-size: 1.05rem;
 }
 
 /*section 3 column*/
@@ -414,12 +426,20 @@ section .flex2 {
 
 .button-buy {
   padding: 10px 15px;
+  display: block;
+  width: 130px;
+  text-align: center;
   background-color: #82ca9c;
   border-radius: 3px;
   font-family: "Open Sans", sans-serif;
   font-size: 10pt;
   color: white;
   text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.button-buy:hover {
+  font-weight: bold;
 }
 
 .liens_icons {
@@ -430,6 +450,12 @@ section .flex2 {
   color: #c5c5c5;
   font-size: 1.5rem;
   margin-right: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.liens_icons a:hover {
+  color: #67676d;
+  text-decoration: none;
 }
 
 /*footer*/
@@ -460,6 +486,15 @@ footer p {
 .below_btn {
   color: #57697f;
   margin-top: 0px;
+}
+
+footer a {
+  transition: all 0.3s ease-in-out;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 /*flexbox*/
@@ -508,6 +543,11 @@ footer {
   width: 50px;
   background-color: #77c1ab;
   color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.email_bar .btn_envoyer:hover {
+  font-size: 1.2rem;
 }
 
 /*section 2eme ligne*/
