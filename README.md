@@ -8,7 +8,7 @@ Objectif du projet: développer mes connaissances et compétences en HTML et CSS
 
 information: pas d'utilisation de Bootstrap l'objectif étant d'apprendre à utiliser les languages HTML et CSS
 mais la maquette est conçue pour pouvoir utiliser Bootstrap.
-Pas de javascript utilisé car pas assez de connaisance pour le moment.
+Pas de javascript utilisé car pas assez de connaissance pour le moment.
 
 éléments open-source utilisés:
 
