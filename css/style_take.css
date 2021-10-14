@@ -4,13 +4,6 @@ gris texte article  #959595  rgb(149, 149, 149)
 gris texte article  #67676d  rgb(103, 103, 109)
 
 
-
-/* importation des polices via google fonts*/
-
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
-
-/*font-family: 'Open Sans', sans-serif;*/
-
 /*style par défaut*/
 body {
   background-color: white;
@@ -64,7 +57,7 @@ header figure {
 
 .masthead h1 {
   color: white;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 40pt;
   font-style: normal;
   font-weight: 300;
@@ -74,7 +67,7 @@ header figure {
 
 .masthead p {
   color: white;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 10pt;
   width: 38%;
 }
@@ -97,7 +90,7 @@ section .flex {
 
 section h2 {
   color: black;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 30pt;
   font-style: normal;
   font-weight: 300;
@@ -106,7 +99,7 @@ section h2 {
 
 section p {
   color: #959595;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 22px;
   font-size: 11pt;
   margin-top: 20px;
@@ -129,7 +122,7 @@ section p {
 }
 
 .box h2 {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 18pt;
   font-style: normal;
   font-weight: 300;
@@ -139,7 +132,7 @@ section p {
 }
 
 .box p {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 22px;
   font-size: 10pt;
   margin-left: 25px;
@@ -150,7 +143,7 @@ section p {
 }
 
 .box a {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 22px;
   font-size: 10pt;
   font-weight: bold;
@@ -251,7 +244,7 @@ section p {
 /*section 4 column*/
 
 h3 {
-  font-family: "Open Sans Semibold", sans-serif;
+  font-family: 'Open Sans Semibold', sans-serif;
   font-size: 11pt;
   color: #67676d;
   margin-top: 65px;
@@ -294,7 +287,7 @@ section .flex2 {
 
 .image h1 {
   color: white;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 35pt;
   font-style: normal;
   font-weight: 300;
@@ -304,7 +297,7 @@ section .flex2 {
 
 .image p {
   color: white;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 10pt;
   width: 50%;
   margin-bottom: 22px;
@@ -312,7 +305,7 @@ section .flex2 {
 }
 
 .image a {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 22px;
   font-size: 10pt;
   font-weight: bold;
@@ -339,7 +332,7 @@ section .flex2 {
 }
 
 .three_col h3 {
-  font-family: "Open Sans Semibold", sans-serif;
+  font-family: 'Open Sans Semibold', sans-serif;
   font-size: 11pt;
   color: white;
   margin-top: 65px;
@@ -393,7 +386,7 @@ section .flex2 {
   display: inline-block;
   border: white solid 1px;
   color: white;
-  font-family: "Open Sans Extrabold", sans-serif;
+  font-family: 'Open Sans Extrabold', sans-serif;
   font-size: 8pt;
   border-radius: 5px;
   padding: 5px 10px;
@@ -409,14 +402,14 @@ section .flex2 {
 }
 
 .buying h2 {
-  font-family: "Open Sans Light", sans-serif;
+  font-family: 'Open Sans Light', sans-serif;
   font-size: 22pt;
   color: #2e3b4e;
   margin: 25px 0;
 }
 
 .buying p {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 10pt;
   line-height: 20px;
   color: #8297a7;
@@ -431,7 +424,7 @@ section .flex2 {
   text-align: center;
   background-color: #82ca9c;
   border-radius: 3px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 10pt;
   color: white;
   text-decoration: none;
@@ -463,14 +456,14 @@ section .flex2 {
 .masterfooter {
   background-color: #192431;
   color: #f6f7fa;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 10pt;
 }
 
 /*polices*/
 
 footer h3 {
-  font-family: "Open Sans Semibold", sans-serif;
+  font-family: 'Open Sans Semibold', sans-serif;
   font-size: 11pt;
   color: #f6f7fa;
 }
@@ -478,7 +471,7 @@ footer h3 {
 footer a,
 footer p {
   color: #f6f7fa;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 10pt;
   text-decoration: none;
 }
