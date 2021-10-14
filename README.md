@@ -1,6 +1,7 @@
 # projet_one_page_take
-intégration web d'une maquette photoshop à partir du template créé par Blaz Robar 
-lien pour télécharger la maquette en format PSD:
+Intégration web d'une maquette photoshop à partir du template créé par Blaz Robar.
+
+Lien pour télécharger la maquette en format PSD:
 https://blazrobar.com/free-psd-website-templates/take-a-free-mobile-app-landing-page-psd-template/
 
 Objectif du projet: développer mes connaissances et compétences en HTML et CSS et pratiquer.
@@ -11,7 +12,7 @@ Pas de javascript utilisé car pas assez de connaisance pour le moment.
 
 éléments open-source utilisés:
 
-police: googlefonts, 
-icons: fontawesome, 
-images: unsplash.com, 
+police: googlefonts,  
+icons: fontawesome,  
+images: unsplash.com,  
 iphone mockup: pixeden.com
